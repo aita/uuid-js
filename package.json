@@ -1,0 +1,14 @@
+{
+  "name": "uuid",
+  "version": "1.0.0",
+  "description": "An implementation of UUID v4 and v5",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Ryo Aita <ryoait@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
