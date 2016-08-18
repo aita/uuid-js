@@ -13,5 +13,8 @@
     "rimraf": "2.5.4",
     "tslint": "3.14.0",
     "typescript": "2.0.0"
+  },
+  "dependencies": {
+    "buffer": "4.9.1"
   }
 }
