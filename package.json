@@ -4,11 +4,14 @@
   "description": "An implementation of UUID v4 and v5",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "tslint --project source/ && rimraf ./distribution && tsc && ava"
   },
   "author": "Ryo Aita <ryoait@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "0.16.0",
+    "rimraf": "2.5.4",
+    "tslint": "3.14.0",
+    "typescript": "2.0.0"
   }
 }
